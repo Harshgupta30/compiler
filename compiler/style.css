@@ -1,0 +1,68 @@
+
+body{
+    /* margin: 1px; */
+    background-color: gray;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e1e1e;
+    color: grey;
+    align-items: center;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+#head {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+#compile{
+    background-color: #333333;
+    border: 1px solid #333333;
+    color: grey;
+    cursor: pointer;
+    outline: none;
+}
+#lang{
+    background-color: #333333;
+    border: 1px solid #333333;
+    color: grey;
+    cursor: pointer;
+    outline: none;
+}
+.codearea{
+    display: flex;
+}
+#codeEditor,#lineCounter,#codeout {
+    border-radius: 0;
+    resize: none;
+    line-height: 1.2;
+    outline: none;
+}
+#codeEditor {
+    width:100%;
+    height: 65vh;
+    color: white;
+    background-color: #1e1e1e;
+    border: 1px solid #1e1e1e;
+}
+#lineCounter{
+    width: 3.5rem; 
+    height: 65vh;
+    text-align: end;
+    color: white;
+    background-color: #333333;
+    border: 1px solid #333333;
+    overflow: hidden;
+}
+#codeout {
+    margin-top: 2vh;
+    padding-left: 0px;
+    background-color: #1e1e1e;
+    border: 1px solid #1e1e1e;
+    color: aliceblue;
+    width: 100%;
+    height: 20vh;
+}
